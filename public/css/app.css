@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+body {
+    background-color: #F8F8F8;
+    font-family: 'Nunito', sans-serif;
+}
+
+.megamenu {
+    position: static
+}
+
+#contact_email{
+    width: 67%;
+    background: #ebebeb;
+    font-family: inherit;
+    color: #737373;
+    letter-spacing: 1px;
+    text-indent: 5%;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.megamenu .dropdown-menu {
+    background: none;
+    border: none;
+    width: 100%
+}
+
+code {
+    color: #745eb1;
+    background: #fff;
+    padding: 0.1rem 0.2rem;
+    border-radius: 0.2rem
+}
+
+.text-uppercase {
+    letter-spacing: 0.08em
+}
+
+.active {
+    background-color: #d65821;
+}
+
+.nav-link:hover {
+    background-color: #e95b1e;
+}
+
+hr {
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+}
+
+.contact_position {
+    margin-bottom: 4rem;
+}
+
+.contact_roww {
+    margin-bottom: 4rem;
+    
+}
+
+.fakeimg {
+    height: 300px;
+    border-radius: 5px;
+}
+
+#add_to_cart {
+    font-size: 15px;
+    width: 100px;
+    height: 45px;
+    background: #F16121;
+    font-family: inherit;
+    font-weight: bold;
+    /* color: inherit; */
+    /* letter-spacing: 1px; */
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background .3s ease-in-out;
+}
+
+#item_price{
+    
+}
+#add_to_cart:hover {
+    width: 100px;
+    background: #da571e;
+}

@@ -1,0 +1,67 @@
+
+.button {
+    height: 44px;
+    border: none;
+}
+
+.contact_us{
+    width: 85%;
+    background: #ebebeb;
+    font-family: inherit;
+    color: #737373;
+    letter-spacing: 1px;
+    text-indent: 5%;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#email_form {
+    width: 55%;
+    background: #F5F5F5;
+    font-family: inherit;
+    color: #737373;
+    letter-spacing: 1px;
+    text-indent: 5%;
+    border-radius: 5px 0 0 5px;
+}
+
+
+#submit {
+    font-size: 12px;
+    width: 25%;
+    height: 45px;
+    background: #F16121;
+    font-family: inherit;
+    font-weight: bold;
+    color: inherit;
+    letter-spacing: 1px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background .3s ease-in-out;
+}
+    
+
+#submit:hover {
+    background: #da571e;
+}
+    
+
+input:focus {
+    outline: none;
+    outline: 2px solid #F16121;
+    box-shadow: 0 0 2px #F16121;
+}
+
+#comment {
+    resize: none; 
+    width: 93%; 
+    background: #ebebeb; 
+    color: #737373;
+    letter-spacing: 1px;
+    border-radius: 5px 5px 5px 5px;
+    outline: none;
+}
+
+#comment:focus {
+    outline: 2px solid #F16121;
+    box-shadow: 0 0 2px #F16121;
+}

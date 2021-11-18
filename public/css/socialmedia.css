@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+._12 {
+    font-size: 1.2em;
+}
+._14 {
+    font-size: 1.4em;
+}
+#si {
+    padding:0;
+    list-style: none;
+}
+
+
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #F16121;
+    text-decoration: none;
+}
+.icons {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #252a2e;
+}
+.icons:hover {
+    background-color: #33393d;
+}
+
+.contact_icons {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #ffffff;
+}
+
+.contact_icons:hover {
+    background-color: #e4e4e4;
+}
+
+.contact_icon li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.contact_icon a {
+    color: #000000;
+    text-decoration: none;
+}
